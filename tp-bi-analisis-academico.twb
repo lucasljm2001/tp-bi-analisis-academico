@@ -22,7 +22,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='calificaciones_consolidadas' name='excel-direct.1j45fn517mjkdq1d4hfh706e88n3'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Punto Digital/Downloads/tp-bi-analisis-academico-main/datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.1j45fn517mjkdq1d4hfh706e88n3' name='Sheet1' table='[Sheet1$]' type='table'>
@@ -241,7 +241,7 @@
       <column caption='Nombre aula' datatype='string' name='[Nombre_aula]' role='dimension' type='nominal' />
       <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]' role='measure' type='quantitative' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='C:/Users/PUNTOD~1/AppData/Local/Temp/TableauTemp/#TableauTemp_184i6vi0ejvecp12dec60136oblw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/01/2025 12:08:06 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='datos_limpios/#TableauTemp_184i6vi0ejvecp12dec60136oblw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/01/2025 12:08:06 AM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
