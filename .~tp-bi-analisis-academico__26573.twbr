@@ -1,0 +1,1083 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (calificaciones_consolidadas)' inline='true' name='federated.0159u520oaudrs1cg48wu0kj62ww' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='calificaciones_consolidadas' name='excel-direct.1j45fn517mjkdq1d4hfh706e88n3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1j45fn517mjkdq1d4hfh706e88n3' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:K1794:no:A1:K1794:0' header='yes' outcome='6'>
+            <column datatype='string' name='Usuario' ordinal='0' />
+            <column datatype='string' name='Apellido' ordinal='1' />
+            <column datatype='string' name='Nombre' ordinal='2' />
+            <column datatype='string' name='Nota' ordinal='3' />
+            <column datatype='string' name='Observaciones' ordinal='4' />
+            <column datatype='string' name='Detalle' ordinal='5' />
+            <column datatype='string' name='Materia' ordinal='6' />
+            <column datatype='string' name='Fecha_exportacion' ordinal='7' />
+            <column datatype='string' name='Nombre_aula' ordinal='8' />
+            <column datatype='string' name='Calificacion' ordinal='9' />
+            <column datatype='string' name='Responsable' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K1794:no:A1:K1794:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Usuario</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Usuario]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Usuario</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apellido</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Apellido]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Apellido</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nombre</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nombre]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nombre</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nota</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nota]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nota</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Observaciones</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Observaciones]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Observaciones</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Detalle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Detalle]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Detalle</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Materia</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Materia]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Materia</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fecha_exportacion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fecha_exportacion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fecha_exportacion</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nombre_aula</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Nombre_aula]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nombre_aula</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calificacion</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Calificacion]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Calificacion</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Responsable</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Responsable]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Responsable</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RAR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Nota limpia' datatype='real' name='[Calculation_1564156446973100038]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='FLOAT(SPLIT([Nota], &quot;/&quot;, 1))' />
+      </column>
+      <column caption='Nota ponderada Algebra' datatype='real' name='[Calculation_1581326423044886531]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='ROUND(sum([Calculation_1564156446973100038])/45,2)*100' />
+      </column>
+      <column caption='Condicion' datatype='string' name='[Calculation_1581326423045189636]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='if [Calculation_1581326423044886531] &lt; 60 &#10;                        then &apos;Libre&apos;&#10;elseif [Calculation_1581326423044886531] &gt;= 60 &#10;        and [Calculation_1581326423044886531] &lt; 85 &#10;                        then &apos;Regular&apos;&#10;else &apos;Promocion&apos;&#10;end' />
+      </column>
+      <column caption='Calificacion y materia' datatype='string' name='[Calculation_1869908642925465605]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Calificacion] + &quot;-&quot;  +[Materia]' />
+      </column>
+      <column caption='Puntaje por alumno por materia' datatype='real' name='[Calculation_1869908642928246790]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED [Usuario], [Materia] :&#10;    IF MAX([Materia]) = &apos;Álgebra&apos; THEN&#10;        // Regla Álgebra: Sistema acumulativo de puntos&#10;        [Calculation_1581326423044886531]&#10;        &#10;    ELSEIF MAX([Materia]) = &apos;Probabilidad y Estadística&apos; THEN&#10;        // Regla P&amp;E: Promedio de todos los instrumentos&#10;        AVG([Calculation_1564156446973100038])&#10;        &#10;    ELSEIF MAX([Materia]) = &apos;Algoritmos y Estructuras de Datos&apos; THEN&#10;        // Regla Algoritmos: Promedio general&#10;        AVG([Calculation_1564156446973100038])&#10;    END&#10;}' />
+      </column>
+      <column caption='Condicion por materia' datatype='string' name='[Calculation_1869908642928476167]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Materia] = &apos;Álgebra&apos; THEN&#10;    IF [Calculation_1869908642928246790] &gt;= 85 THEN &apos;Promociona&apos;&#10;    ELSEIF [Calculation_1869908642928246790] &gt;= 60 THEN &apos;Regular&apos;&#10;    ELSE &apos;Libre&apos;&#10;    END&#10;&#10;ELSEIF [Materia] = &apos;Probabilidad y Estadística&apos; THEN&#10;    IF [Calculation_1869908642928246790] &gt;= 85 THEN &apos;Promociona&apos;&#10;    ELSEIF [Calculation_1869908642928246790] &gt;= 60 THEN &apos;Regular&apos;&#10;    ELSE &apos;Libre&apos;&#10;    END&#10;&#10;ELSEIF [Materia] = &apos;Algoritmos y Estructuras de Datos&apos; THEN&#10;    // OJO: Algoritmos tiene reglas de promoción distintas&#10;    IF [Calculation_1869908642928246790] &gt;= 90 THEN &apos;Promociona&apos; &#10;    ELSEIF [Calculation_1869908642928246790] &gt;= 60 THEN &apos;Regular&apos;&#10;    ELSE &apos;Libre&apos;&#10;    END&#10;END' />
+      </column>
+      <column caption='Fecha exportacion' datatype='string' name='[Fecha_exportacion]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Materia]' role='dimension' type='nominal' />
+      <column caption='Nombre aula' datatype='string' name='[Nombre_aula]' role='dimension' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1869908642925465605]' derivation='None' name='[none:Calculation_1869908642925465605:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Materia]' derivation='None' name='[none:Materia:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='es_ES' class='hyper' dbname='/var/folders/d9/8ftmh4jj2z7_c47pk8t_w_nh0000gp/T/tableau-temp/#TableauTemp_07looc50vely5p19h0hxd1gs9mgz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/08/2025 12:00:07 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Usuario</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Usuario]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Usuario</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>210</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Apellido</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Apellido]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Apellido</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>197</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nombre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Nombre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nombre</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>205</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nota</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Nota]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nota</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Observaciones</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Observaciones]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Observaciones</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Detalle</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Detalle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Detalle</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Materia</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Materia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Materia</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fecha_exportacion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Fecha_exportacion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fecha_exportacion</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nombre_aula</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Nombre_aula]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nombre_aula</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Calificacion</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Calificacion]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Calificacion</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Responsable</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Responsable]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Responsable</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RAR_S2' />
+              <object-id>[Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='1793' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Materia:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Álgebra&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algoritmos y Estructuras de Datos&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1869908642925465605:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Actividad Rápida 1-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;1° Parcial-Álgebra&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Autoevaluación - Unidad 2-Algoritmos y Estructuras de Datos&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Actividad Rápida 5-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Actividad Rápida 2-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Autoevaluación - Unidad 3-Algoritmos y Estructuras de Datos&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AUTOEVALUACION1-Álgebra&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Recuperatorio: Evaluación Semanal Nº1-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Autoevaluación - Unidad 4-Algoritmos y Estructuras de Datos&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Evaluación Semanal Nº1-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Evaluación Semanal Nº2-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Actividad Rápida 3-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Autoevaluación - Unidad 5-Algoritmos y Estructuras de Datos&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AUTOEVALUACION2-Álgebra&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PARCIAL 1-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Actividad Rápida 4-Probabilidad y Estadística&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Autoevaluación - Módulo 1-Algoritmos y Estructuras de Datos&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Argentina&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Usuario' />
+        <field-sort-custom-order field='Apellido' />
+        <field-sort-custom-order field='Nombre' />
+        <field-sort-custom-order field='Nota' />
+        <field-sort-custom-order field='Calculation_1564156446964170754' />
+        <field-sort-custom-order field='Observaciones' />
+        <field-sort-custom-order field='Detalle' />
+        <field-sort-custom-order field='Materia' />
+        <field-sort-custom-order field='Fecha_exportacion' />
+        <field-sort-custom-order field='Nombre_aula' />
+        <field-sort-custom-order field='Calificacion' />
+        <field-sort-custom-order field='Responsable' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_40F4C9DC854C4C73BC9BCA790D8A48A8'>
+            <properties context=''>
+              <relation connection='excel-direct.1j45fn517mjkdq1d4hfh706e88n3' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:K1794:no:A1:K1794:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Usuario' ordinal='0' />
+                  <column datatype='string' name='Apellido' ordinal='1' />
+                  <column datatype='string' name='Nombre' ordinal='2' />
+                  <column datatype='string' name='Nota' ordinal='3' />
+                  <column datatype='string' name='Observaciones' ordinal='4' />
+                  <column datatype='string' name='Detalle' ordinal='5' />
+                  <column datatype='string' name='Materia' ordinal='6' />
+                  <column datatype='string' name='Fecha_exportacion' ordinal='7' />
+                  <column datatype='string' name='Nombre_aula' ordinal='8' />
+                  <column datatype='string' name='Calificacion' ordinal='9' />
+                  <column datatype='string' name='Responsable' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Condicion por alumno'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (calificaciones_consolidadas)' name='federated.0159u520oaudrs1cg48wu0kj62ww' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0159u520oaudrs1cg48wu0kj62ww'>
+            <column caption='Nota limpia' datatype='real' name='[Calculation_1564156446973100038]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='FLOAT(SPLIT([Nota], &quot;/&quot;, 1))' />
+            </column>
+            <column caption='Nota ponderada Algebra' datatype='real' name='[Calculation_1581326423044886531]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='ROUND(sum([Calculation_1564156446973100038])/45,2)*100' />
+            </column>
+            <column caption='Puntaje por alumno por materia' datatype='real' name='[Calculation_1869908642928246790]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED [Usuario], [Materia] :&#10;    IF MAX([Materia]) = &apos;Álgebra&apos; THEN&#10;        // Regla Álgebra: Sistema acumulativo de puntos&#10;        [Calculation_1581326423044886531]&#10;        &#10;    ELSEIF MAX([Materia]) = &apos;Probabilidad y Estadística&apos; THEN&#10;        // Regla P&amp;E: Promedio de todos los instrumentos&#10;        AVG([Calculation_1564156446973100038])&#10;        &#10;    ELSEIF MAX([Materia]) = &apos;Algoritmos y Estructuras de Datos&apos; THEN&#10;        // Regla Algoritmos: Promedio general&#10;        AVG([Calculation_1564156446973100038])&#10;    END&#10;}' />
+            </column>
+            <column caption='Condicion por materia' datatype='string' name='[Calculation_1869908642928476167]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Materia] = &apos;Álgebra&apos; THEN&#10;    IF [Calculation_1869908642928246790] &gt;= 85 THEN &apos;Promociona&apos;&#10;    ELSEIF [Calculation_1869908642928246790] &gt;= 60 THEN &apos;Regular&apos;&#10;    ELSE &apos;Libre&apos;&#10;    END&#10;&#10;ELSEIF [Materia] = &apos;Probabilidad y Estadística&apos; THEN&#10;    IF [Calculation_1869908642928246790] &gt;= 85 THEN &apos;Promociona&apos;&#10;    ELSEIF [Calculation_1869908642928246790] &gt;= 60 THEN &apos;Regular&apos;&#10;    ELSE &apos;Libre&apos;&#10;    END&#10;&#10;ELSEIF [Materia] = &apos;Algoritmos y Estructuras de Datos&apos; THEN&#10;    // OJO: Algoritmos tiene reglas de promoción distintas&#10;    IF [Calculation_1869908642928246790] &gt;= 90 THEN &apos;Promociona&apos; &#10;    ELSEIF [Calculation_1869908642928246790] &gt;= 60 THEN &apos;Regular&apos;&#10;    ELSE &apos;Libre&apos;&#10;    END&#10;END' />
+            </column>
+            <column datatype='string' name='[Materia]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Nota]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Usuario]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1869908642928476167]' derivation='None' name='[none:Calculation_1869908642928476167:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Materia]' derivation='None' name='[none:Materia:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Usuario]' derivation='None' name='[none:Usuario:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1869908642928246790]' derivation='Sum' name='[sum:Calculation_1869908642928246790:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;13175795&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;14394843&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;21897559&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;22196144&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;22306440&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;22864483&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;23448364&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;24270709&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;24573270&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;25085968&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;25989056&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;26218577&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;26336275&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;26717178&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;26763718&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;27036834&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;27231845&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;27607948&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;27820745&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;28250293&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29138177&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29237486&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29341549&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29377550&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29712547&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29974519&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;29976458&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30011663&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30062459&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30222262&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30326521&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30337835&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30377854&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30498258&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30543929&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30674692&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30734609&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30882126&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;30917870&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31357370&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31375316&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31446217&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31450989&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31516123&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31545481&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31573214&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31796621&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;31888243&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32231139&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32328511&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32434666&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32541356&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32631421&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32689304&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32710236&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32821524&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32865150&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32964134&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;32976444&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33166229&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33513360&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33543132&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33550744&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33754305&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33779664&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33832086&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33891243&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;33961945&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34328463&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34329474&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34692982&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34780072&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34783244&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34814343&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34963029&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;34966549&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35048014&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35064541&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35097711&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35112581&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35202262&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35269079&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35273780&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35343414&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35362455&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35541368&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35890159&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;35932547&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36035102&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36155071&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36408862&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36438829&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36487886&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36520886&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36539039&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36590408&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36708192&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36708312&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36805238&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36934796&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;36949588&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37009641&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37093927&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37186919&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37186937&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37318880&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37493936&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37506595&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37560915&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37753717&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37818362&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37818851&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;37999014&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38005562&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38033657&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38309702&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38313837&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38480493&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38497510&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38762456&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38763561&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;38809363&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39016445&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39142896&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39198257&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39270925&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39297154&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39297571&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39298048&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39300685&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39300725&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39496378&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39583677&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39691184&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39700286&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39700334&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39884835&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39904048&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;39973344&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40068992&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40112543&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40164920&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40166752&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40482654&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40514461&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40594194&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40599986&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40775866&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40799406&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40799630&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40811426&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40820602&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;40925929&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41045140&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41245017&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41284812&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41285135&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41550843&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41589993&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41718523&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41756023&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41866100&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;41870184&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42019301&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42058673&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42058768&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42059393&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42085658&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42176133&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42263454&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42293116&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42299393&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42438549&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42502922&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42664315&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42664539&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42731692&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42798702&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42828466&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;42978216&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43150502&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43212462&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43212463&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43375319&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43449280&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43611917&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43611965&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43612720&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43616327&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43628893&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43638387&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43693921&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43694161&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43792014&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;43994708&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;44430891&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;44648443&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;44752851&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45110050&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45172576&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45172916&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45254519&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45328932&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45383269&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45469116&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45563535&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45580558&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45585228&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45589198&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;45589325&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;46009054&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;46386346&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;46457737&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;46788361&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;47257441&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;47937297&quot;' />
+              <groupfilter function='member' level='[none:Usuario:nk]' member='&quot;96036722&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='249' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Calculation_1869908642928476167:nk]' />
+              <text column='[federated.0159u520oaudrs1cg48wu0kj62ww].[sum:Calculation_1869908642928246790:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]</rows>
+        <cols>[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Materia:nk]</cols>
+      </table>
+      <simple-id uuid='{E52B59FC-A257-406B-B8E0-9F8AB30A8007}' />
+    </worksheet>
+    <worksheet name='Notas por instrumento'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (calificaciones_consolidadas)' name='federated.0159u520oaudrs1cg48wu0kj62ww' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0159u520oaudrs1cg48wu0kj62ww'>
+            <column caption='Nota limpia' datatype='real' name='[Calculation_1564156446973100038]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='FLOAT(SPLIT([Nota], &quot;/&quot;, 1))' />
+            </column>
+            <column caption='Calificacion y materia' datatype='string' name='[Calculation_1869908642925465605]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Calificacion] + &quot;-&quot;  +[Materia]' />
+            </column>
+            <column datatype='string' name='[Calificacion]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Materia]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Nota]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Usuario]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1564156446973100038]' derivation='Avg' name='[avg:Calculation_1564156446973100038:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Materia]' derivation='Min' name='[min:Materia:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1869908642925465605]' derivation='None' name='[none:Calculation_1869908642925465605:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Materia]' derivation='None' name='[none:Materia:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Usuario]' derivation='None' name='[none:Usuario:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Calculation_1869908642925465605:nk]' direction='ASC' using='[federated.0159u520oaudrs1cg48wu0kj62ww].[min:Materia:nk]' />
+          <filter class='categorical' column='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]'>
+            <groupfilter function='level-members' level='[none:Usuario:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0159u520oaudrs1cg48wu0kj62ww].[avg:Calculation_1564156446973100038:qk]' value='59' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Calculation_1869908642925465605:nk]' value='70' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0159u520oaudrs1cg48wu0kj62ww].[avg:Calculation_1564156446973100038:qk]' />
+              <color column='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Materia:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0159u520oaudrs1cg48wu0kj62ww].[avg:Calculation_1564156446973100038:qk]</rows>
+        <cols>[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Calculation_1869908642925465605:nk]</cols>
+      </table>
+      <simple-id uuid='{6D263B00-8C3F-4BF9-8F5C-5508B9C22982}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1 (calificaciones_consolidadas)' name='federated.0159u520oaudrs1cg48wu0kj62ww' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0159u520oaudrs1cg48wu0kj62ww'>
+        <column datatype='string' name='[Usuario]' role='dimension' type='nominal' />
+        <column-instance column='[Usuario]' derivation='None' name='[none:Usuario:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98046' id='4' type-v2='layout-basic' w='49480' x='520' y='977'>
+            <zone h='96092' id='7' param='horz' type-v2='layout-flow' w='48440' x='1040' y='1954'>
+              <zone h='96092' id='5' type-v2='layout-basic' w='41487' x='1040' y='1954'>
+                <zone h='96092' id='14' name='Notas por instrumento' w='41487' x='1040' y='1954'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='107' h='96092' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='6953' x='42527' y='1954'>
+                <zone h='6349' id='15' mode='dropdown' name='Notas por instrumento' param='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]' type-v2='filter' w='6953' x='42527' y='1954'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='8' />
+            </zone-style>
+          </zone>
+          <zone h='98046' id='20' name='Condicion por alumno' w='49480' x='50000' y='977'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98048' id='18' param='vert' type-v2='layout-flow' w='97538' x='1231' y='976'>
+                <zone h='6342' id='15' mode='dropdown' name='Notas por instrumento' param='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]' type-v2='filter' w='16462' x='81076' y='1952'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='96096' id='14' is-fixed='true' name='Notas por instrumento' w='78614' x='2462' y='1952'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F8C85085-B746-4093-882C-2DE460CB5809}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Condicion por alumno'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3B98F615-1DD8-4E54-90AC-E0DA5B92229D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Notas por instrumento'>
+      <cards>
+        <edge name='left'>
+          <strip size='134'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card mode='dropdown' param='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Usuario:nk]' type='filter' />
+            <card pane-specification-id='5' param='[federated.0159u520oaudrs1cg48wu0kj62ww].[none:Materia:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F5403748-8BE9-4626-8390-D24E1827BC52}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Condicion por alumno' />
+        <viewpoint name='Notas por instrumento'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='20' />
+      <simple-id uuid='{D70E1930-4CB0-4057-BBD5-FDFC4C91349A}' />
+    </window>
+  </windows>
+</workbook>
