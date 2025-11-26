@@ -27,13 +27,13 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='reporte_trazabilidad_Alg_y_Est' name='excel-direct.07ty6m60myje8v1bukcn90ygk715'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/reporte_trazabilidad_Alg_y_Est.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/reporte_trazabilidad_Alg_y_Est.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='reporte_trazabilidad_Alg' name='excel-direct.000ez5a0ghehap158xb8l0gz5a3f'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/reporte_trazabilidad_Alg.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/reporte_trazabilidad_Alg.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='reporte_trazabilidad_Prob_y_Est' name='excel-direct.1np8rr51wkmopg1a2n60407ibhjk'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/reporte_trazabilidad_Prob_y_Est.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/reporte_trazabilidad_Prob_y_Est.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation all='true' connection='excel-direct.07ty6m60myje8v1bukcn90ygk715' include-siblings='false' is-recursive='false' name='Reporte+' path='' type='batch-union'>

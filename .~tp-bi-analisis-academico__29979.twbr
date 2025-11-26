@@ -27,13 +27,13 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='calificaciones_consolidadas' name='excel-direct.1j45fn517mjkdq1d4hfh706e88n3'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='matriculas_consolidadas' name='excel-direct.134dgyu0mzbirt1bdep3711j0zhc'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/matriculas_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/matriculas_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='participaciones_consolidadas' name='excel-direct.0h7h29p1ymq46u115qm131euhk8h'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/participaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/participaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation join='left' type='join'>

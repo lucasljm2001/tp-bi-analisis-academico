@@ -22,7 +22,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='calificaciones_consolidadas' name='excel-direct.1j45fn517mjkdq1d4hfh706e88n3'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/naranjax/up/bussiness_intelligence/tp-bi-analisis-academico/datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='tp-bi-analisis-academico/datos_limpios/calificaciones_consolidadas.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.1j45fn517mjkdq1d4hfh706e88n3' name='Sheet1' table='[Sheet1$]' type='table'>
